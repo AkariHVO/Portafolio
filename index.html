@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container mx-auto">
+    <div class="grid lg:grid-cols-2 lg:h-[90vh]">
+      <div class="p-[40px] flex flex-col justify-center order-2 lg:order-1">
+        <p class="text-[64px] font-bold font-serif" data-aos="fade-up" data-aos-duration="1000">Hola!</p>
+        <h1 class="text-[40px] font-bold text-[#243a69]" data-aos="fade-up" data-aos-duration="2000"> Mi nombre es Akari Vazquez</h1>
+        <p class="text-[24px]"data-aos="fade-up" data-aos-duration="2000">Desarrolladora web apasionada por el aprendizaje continuo. Me distingo por ser una persona responsable, capaz de cumplir con mis obligaciones y compromisos de manera eficiente y puntual. 
+        </p>
+      </div>
+      <div class="pt-[32px] lg:pt-[0px] relative order-1 lg:order-2">
+          <picture class="hidden lg:block absolute w-[100%] h-[100%] top-[0] left-[0] z-[0] pl-[40px]" data-aos="fade-left" data-aos-duration="1000">
+            <source media="(min-width: 1220px)" srcset="./src/fondo.jpg">
+            <img class="w-[100%] h-[100%] object-cover" src="./src/fondo.jpg" alt="Perrito">
+          </picture>
+          <picture class=relative lg:absolute lg:top-[20px] left-[0] z-[1]" data-aos="zoom-in" data-aos-duration="2000">
+            <source media="(min-width: 1220px)" srcset="./src/Akari.jpg">
+            <img class="w-[100%] lg:w-[300px] object-cover rounded-[12px] shadow-2xl" src="./src/Akari.jpg" alt="Perrito">
+          </picture>
+      </div>
+    </div>
+  </div>
+  <div class="lg:h-[10vh] flex gap-[16px] justify-center items-center bg-[#5b88a5] lg:bg-transparent lg:hover:bg-[#5b88a5] transition duration-1000">
+    <p class="text-[30px] lg:text-[50px] font-bold font-serif text-[#f4f4f2]">Disponible para trabajar</p>
+  </div>
+  <section class="container mx-auto p-[40px]">
+    <h2 class="text-[30px] lg:text-[64px] font-bold font-serif pb-[32px]" data-aos="fade-right" data-aos-duration="2000">Herramientas</h2>
+    <div class="flex gap-[24px] justify-center">
+      <img class="w-[35px] h-[35px] lg:w-[70px] lg:h-[70px] object-containes hover:w-[80px] hover:h-[80px] transition duration-700" src="./src/C.png" alt="linkedin">
+      <img class="w-[35px] h-[35px] lg:w-[70px] lg:h-[70px] object-containes hover:w-[80px] hover:h-[80px] transition duration-700" src="./src/html.png" alt="linkedin">
+      <img class="w-[35px] h-[35px] lg:w-[70px] lg:h-[70px] object-containes hover:w-[80px] hover:h-[80px] transition duration-700" src="./src/css.png" alt="linkedin">
+      <img class="w-[35px] h-[35px] lg:w-[70px] lg:h-[70px] object-containes hover:w-[80px] hover:h-[80px] transition duration-700" src="./src/JS.png" alt="linkedin">
+      <img class="w-[35px] h-[35px] lg:w-[70px] lg:h-[70px] object-containes hover:w-[80px] hover:h-[80px] transition duration-700" src="./src/reactive.png" alt="linkedin">
+    </div>
+  </section>
+  <div class="h-[10vh] flex gap-[16px] justify-center items-center bg-[#d4cdc5] lg:bg-transparent lg:hover:bg-[#d4cdc5] transition duration-1000">
+    <a href="">
+      <img class="w-[45px] h-[45px] object-containes hover:w-[50px] hover:h-[50px] transition duration-700" src="./src/linkedin.png" alt="linkedin">
+    </a>
+    <a href="">
+      <img class="w-[45px] h-[45px] object-container hover:w-[50px] hover:h-[50px] transition duration-700" src="./src/gmail.png" alt="Gmail">
+    </a>
+  </div>
+  <section class="container mx-auto p-[40px]">
+    <h2 class="text-[30px] lg:text-[64px] font-bold font-serif pb-[32px]" data-aos="fade-right" data-aos-duration="2000">Cursos</h2>
+    <div class="grid grid-cols-2 lg:grid-cols-5 gap-[25px]">
+      <p class="text-[15px] lg:text-[24px] font-bold text-[#243a69]">Desarro de Paginas Web y Base de Datos</p>
+      <p class="text-[15px] lg:text-[24px] font-bold text-[#243a69]">Desarrollo Web Completo con HTML5, CSS3, JS AJAX PHP y MySQL</p>
+      <p class="text-[15px] lg:text-[24px] font-bold text-[#243a69]">Fundamentos de Programación</p>
+      <p class="text-[15px] lg:text-[24px] font-bold text-[#243a69]">Git y Github Complemento Desde Cero Actualizado</p>
+      <p class="text-[15px] lg:text-[24px] font-bold text-[#243a69]">JavaScript Moderno: Guía para dominar el lenguaje</p>
+    </div>
+  </section>
+  <div class="h-[10vh] flex gap-[16px] justify-center items-center bg-[#000000] lg:bg-transparent lg:hover:bg-[#000000] transition duration-1000">
+    <a href="./src/Akari_CV.pdf" class="text-[30px] lg:text-[50px] font-bold font-serif text-[#f4f4f2]" download>Descargar CV</a>
+  </div>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
